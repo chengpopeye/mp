@@ -1,16 +1,14 @@
-package com.people.mapper;/**
- * @description: TODO
- * @author      chengdali
- * @datetime    2022/8/6
- * @version:    1.0
- */
+package com.people.mapper;
+
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.people.entity.User;
 
 /**
  * UserMapper  
- * @author chengdali 
+ * @author chengdali
  * @version V1.0
  * @date 2022/08/06
-**/
-public interface UserMapper {
+ **/
+public interface UserMapper extends BaseMapper<User> {
 }
 
